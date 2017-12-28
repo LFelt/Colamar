@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  padding: 24px;
+}
+
+nav {
+  text-align: right;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.left img,
+  video {
+  width: 60%;
+}
+
+.right img {
+  width: 35%;
+}
+
+.course {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+footer {
+  display: block;
+}
